@@ -31,5 +31,7 @@ export default createGlobalStyle`
 
   #root {
     display: flex;
+    flex-direction: column;
+    min-width: 1200px;
   }
 `
