@@ -1,11 +1,12 @@
 import styled from 'styled-components'
 
-export const Wrapper = styled.div`
+export const HeaderContainer = styled.div`
   padding: ${({ theme }) => theme.spaces[4]}px;
   background-color: ${({ theme }) => theme.colors.black};
   width: 100%;
   display: flex;
   justify-content: space-between;
+  font-size: ${({ theme }) => theme.fontSizes[4]}px;
 `
 
 export const Container = styled.div`

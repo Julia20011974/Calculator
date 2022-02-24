@@ -1,7 +1,11 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-import { Wrapper, Container, NavUnlisted } from './style'
+import {
+  HeaderContainer,
+  Container,
+  NavUnlisted,
+} from './style'
 
 import {
   HOME_PAGE_ROUTE,
@@ -15,7 +19,7 @@ const pages = [
 
 export default () => {
   return (
-    <Wrapper>
+    <HeaderContainer>
       <Container>Calculator App</Container>
       <Container>
         <NavUnlisted>
@@ -30,6 +34,6 @@ export default () => {
           ))}
         </NavUnlisted>
       </Container>
-    </Wrapper>
+    </HeaderContainer>
   )
 }
