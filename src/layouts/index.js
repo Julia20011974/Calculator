@@ -6,4 +6,5 @@ export const PageLayout = styled.div`
 
   padding: ${({ theme }) => theme.spaces[5]}px;
   display: flex;
+  background-color: ${props => props.color};
 `
