@@ -7,15 +7,7 @@ import {
   NavUnlisted,
 } from './style'
 
-import {
-  HOME_PAGE_ROUTE,
-  SETTINGS_PAGE_ROUTE,
-} from '@/constants'
-
-const pages = [
-  { name: 'Home', path: HOME_PAGE_ROUTE },
-  { name: 'Settings', path: SETTINGS_PAGE_ROUTE },
-]
+import { pages } from '@/constants'
 
 export default () => {
   return (
