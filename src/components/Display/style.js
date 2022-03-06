@@ -7,5 +7,6 @@ export const DisplayContainer = styled.div`
   padding-bottom: ${({ theme }) => theme.spaces[2]}px;
   padding-right: ${({ theme }) => theme.spaces[5]}px;
   font-size: ${({ theme }) => theme.fontSizes[6]}px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid
+    ${({ theme }) => theme.colors.black};
 `
